@@ -22,4 +22,4 @@ for article in content["articles"][0:20]:
                + "\n" + article["url"]+  2*"\n"
 body =body.encode("utf-8")
 send_email(message = body)
-t="studied"
+
